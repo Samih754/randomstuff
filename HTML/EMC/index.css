@@ -1,0 +1,227 @@
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Spectral:300,400,500,600,700,800')
+
+// Global Style
+.bold
+  font-weight: 700
+.italic
+  font-style: italic
+
+// Newspaper Style
+body
+  background: #f0f1f2
+  margin: 0
+  padding: 0
+  color: #333
+  font-family: 'Spectral', serif
+#page
+  width: 600px*2
+  padding: 36px*2
+  margin: 60px auto
+  background: #f9f7f1
+  box-shadow: 5px 0px 20px #ccc
+  overflow: hidden
+
+// Newspaper Header Style
+#header
+  height: 120px
+  width: 600px*2
+  padding: 9px*2
+  border-top: 2px solid #aaa
+  border-bottom: 2px solid #aaa
+.section
+  width: (600px*2/5)
+  float: left
+.section:first-child
+  border-right: 2px solid #aaa
+  padding-left: 0
+.section:last-child
+  border-left: 2px solid #aaa
+  padding-right: 0
+  float: right
+.section:last-child .content
+  float: right
+.section.middle
+  width: (600px*2/2)
+  margin: 0 auto
+.section .content
+  width: 100px*2
+  margin: 0
+.section .content h4
+  margin: 0 !important
+.section .content p
+  margin: 0 !important
+.section.middle .content
+  width: (600px*2/1.65)
+  text-align: center
+  margin: 0 auto
+.section.middle h1
+  font-size: 100px
+  font-weight: 800
+  margin: 0
+  text-transform: uppercase
+  line-height: 100px
+  letter-spacing: 6px
+
+// Secondary Section Style
+#secondary-header
+  width: 600px*2
+  margin: 0 auto
+  padding: 9px*2
+  float: left
+  border-bottom: 2px solid #aaa
+.secondary-section
+  width: (600px*2/3)
+  float: left
+  text-align: center
+.secondary-section .content
+  padding-left: 15px
+  padding-right: 15px
+.secondary-section h4
+  border-top 1px solid #888
+  border-bottom: 1px solid #888
+  text-transform: uppercase
+.secondary-section h3
+  font-size: 30px
+  margin: 10px auto
+  text-transform: uppercase
+  font-weight: 800
+.secondary-section p
+  text-align: justify
+  text-align-last: center
+.secondary-section a
+  text-decoration: none
+  font-style: italic
+  font-weight: 600
+  color: #333
+  letter-spacing: -1px
+
+// Main Image Style
+#main-image
+  width: 600px*2
+  height: 800px
+  margin: 30px auto
+  padding: 9px*2
+  float: left
+  background-image: url('http://bit.ly/2rFsOEF')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right
+  background-color: #f9f7f1
+  color: #000
+#main-image .content
+  width: 500px
+  padding-left: 15px
+#main-image .content h4
+  text-transform: uppercase
+  font-weight: 700
+  font-size: 20px
+  margin-bottom: 10px
+#main-image .content h1
+  font-size: 50px
+  line-height: 60px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: -1px
+  margin: 0
+#main-image .caption
+  font-style: italic
+  margin-bottom: 30px
+#main-image p
+  width: 130px*2
+  text-align: justify
+  font-size: 16px
+#main-image a
+  text-decoration: none
+  font-style: italic
+  font-weight: 600
+  color: darkred
+  letter-spacing: -1px
+
+// Footer Section Style
+#footer-section
+  width: 600px*2
+  overflow: hidden
+  border-top: 2px solid #aaa
+  padding: 9px*2
+.right-block
+  width: (600px*2/1.4)
+  float left
+  overflow: hidden
+.top-right-block h5, .bottom-right-block h5
+  font-size 20px
+  text-transform uppercase
+  font-weight 700
+  border-bottom 1px solid #aaa
+.top-right-block .content img, .bottom-right-block img
+  width: (740px/2)
+  height: 250px
+  float: left
+  padding-right: 15px
+.text
+  width: (857px/1.86)
+  float: left
+.text h3
+  margin: 0 !important
+  font-size: 30px
+  font-weight: 700
+  letter-spacing: -1px
+  text-transform: uppercase
+.author
+  font-size: 16px;
+  font-weight: 400
+  font-style: italic
+  text-transform: capitalize
+.paragraph-col
+  width: (810px/3.75)
+  float: left
+  text-align: justify
+.paragraph-col:last-child
+  float: right
+.bottom-right-block
+  float left
+.bottom-right-block .content
+  overflow hidden
+  float left
+.bottom-right-block h3
+  width: (740px/2)
+  margin: 0 !important
+  font-size: 30px
+  font-weight: 700
+  line-height 40px
+  letter-spacing: -1px
+  text-transform: uppercase
+  float left
+.bottom-right-block img
+  clear both
+.bottom-right-block .text p
+  margin-top 0
+.left-block
+  width (740px/2.3)
+  float right
+  img, .text, .paragraph-col
+    width 100%
+  h3
+    margin: 0 !important
+    font-size: 30px
+    font-weight: 700
+    line-height 40px
+    letter-spacing: -1px
+    text-transform: uppercase
+  h5
+    font-size 20px
+    text-transform uppercase
+    font-weight 700
+    border-bottom 1px solid #aaa
+
+
+
+
+
+
+
+
+
+
+
+  
